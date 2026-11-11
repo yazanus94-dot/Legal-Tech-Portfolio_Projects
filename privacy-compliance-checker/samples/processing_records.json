@@ -1,0 +1,7 @@
+[
+  {"name": "Newsletter signup (fictional)", "purpose": "Marketing emails", "lawful_basis": "consent",
+   "consent_withdrawable": false, "retention_period": "", "breach_procedure": true},
+  {"name": "HR payroll (fictional)", "purpose": "Pay employees", "lawful_basis": "contract",
+   "retention_period": "7 years", "uses_processor": true, "processor_agreement": true,
+   "cross_border_transfer": true, "transfer_mechanism": "Standard contractual clauses", "breach_procedure": true}
+]

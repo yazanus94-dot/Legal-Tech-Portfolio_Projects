@@ -1,0 +1,8 @@
+SERVICES AGREEMENT (FICTIONAL SAMPLE)
+This Agreement is between Alpha Co. ("Client") and Beta Ltd. ("Provider").
+1. Term. This Agreement shall automatically renew for successive one-year terms.
+2. Termination. Client may terminate this Agreement at any time without cause or notice.
+3. Confidentiality. Each party shall keep the other's confidential information secret.
+4. Indemnification. Provider shall indemnify Client against all losses and claims arising from the services.
+5. Intellectual Property. Provider grants Client a perpetual, irrevocable licence to the deliverables.
+6. Fees. Provider may adjust fees in its sole discretion.
