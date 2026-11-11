@@ -1,4 +1,4 @@
-name: tests
+﻿name: tests
 
 on:
   push:
@@ -22,6 +22,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
+      - run: pip install pytest
       - run: python -m pytest tests/ -q
       - name: CLI smoke run on sample contract
         run: python analyzer.py samples/sample_services_agreement.txt
@@ -40,6 +41,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
+      - run: pip install pytest
       - run: python -m pytest tests/ -q
       - name: CLI smoke run on sample records
         run: python checker.py samples/processing_records.json
@@ -58,6 +60,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
+      - run: pip install pytest
       - run: python -m pytest tests/ -q
       - name: CLI smoke run
         run: python eosb.py --basic 10000 --years 7.5
